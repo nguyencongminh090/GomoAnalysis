@@ -28,11 +28,9 @@ def evaluation(num):
         if str(num).isascii():
             if '-' in num:
                 solve = 'Lose in ' + num.split('-M')[1] + (' moves' if num.split('-M')[1] >= '2' else ' move')
-##                return solve
                 return 0
             elif 'M' in num:
                 solve = 'Win in ' + num.split('M')[1] + (' moves' if num.split('M')[1] >= '2' else ' move')
-##                return solve
                 return 100
             else:
                 f = open('Error.txt', 'a+')
