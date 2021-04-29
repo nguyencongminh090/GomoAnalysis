@@ -16,7 +16,7 @@ def main():
     init()
     # Solve data input
     inpdb = input('Data input: ')
-    data = fplay(inpdb + '.txt')
+    data = fplay(inpdb)
     arr = []
     for i in range(len(data)):
         arr.append(pktool(data[i], 0))
@@ -40,13 +40,11 @@ def main():
             if i % 2 == 0:
                 b_ev.append(100-w_ev[-1])
                 w_ev.append(w_ev[-1])
-                b_num.append(i)
-                w_num.append(i)
+                b_num.append(2*i)
             else:
                 w_ev.append(100-b_ev[-1])
                 b_ev.append(b_ev[-1])
-                w_num.append(i)
-                b_num.append(i)
+                b_num.append(2*i - 1)
             break
         if 2 < i < len(arr):
             print(Fore.LIGHTRED_EX + '[{}]:'.format(i), Style.RESET_ALL, arr[i])
@@ -72,13 +70,11 @@ def main():
                 if i % 2 == 0:
                     b_ev.append(100 - float(output[1]))
                     w_ev.append(float(output[1]))
-                    b_num.append(i)
-                    w_num.append(i)
+                    b_num.append(2*i)
                 else:
                     w_ev.append(100 - float(output[1]))
                     b_ev.append(float(output[1]))
-                    w_num.append(i)
-                    b_num.append(i)
+                    b_num.append(2*i - 1)
             put('RESTART')
 
     connect.kill()
@@ -89,8 +85,6 @@ def main():
     #plt.plot(w_num, w_ev, 'r.-', label='White evaluate')
     plt.legend(loc='best')
     plt.show()
-    print('CHECK LEN:', len(b_ev) == len(w_ev))
-
 if __name__ == '__main__':
     main()
     os.system('pause>nul')
