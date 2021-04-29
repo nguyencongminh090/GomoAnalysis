@@ -1,0 +1,18 @@
+[Event "?"]
+[Site "PlayOK"]
+[Date "2021.03.15"]
+[Round "-"]
+[Black "factorfiction"]
+[White "bfb3249g"]
+[Result "0-1"]
+[Time "15:42:33"]
+[TimeControl "420"]
+[GameType "61,15"]
+[BlackElo "679"]
+[WhiteElo "1251"]
+
+1. b5 k6 2. g2 black 3. c5 e3 4. d3 f6 5. g5 h5 6. h6 f4 7. d6 f5 8. f3 e6 9.
+d7 e7 10. f7 i4 11. e5 j3 12. g6 g4 13. h4 k3 14. h3 i6 15. f9 d9 16. g10 e8
+17. d4 d5 18. j5 l4 19. k2 m5 20. j2 i7 21. i5 l7 22. j7 l5 23. l3 l6 24. l8 k7
+25. i3 k1 26. n4 k5 27. i8 h9 28. h8 o7 29. n6 m7 30. n7 n8 31. j8 o9 0-1
+

@@ -1,0 +1,14 @@
+[Event "?"]
+[Site "PlayOK"]
+[Date "2021.01.06"]
+[Round "-"]
+[Black "bequay"]
+[White "uey7931"]
+[Result "0-1"]
+[Time "13:59:35"]
+[TimeControl "420"]
+[GameType "61,15"]
+[BlackElo "1611"]
+[WhiteElo "1446"]
+
+1. c13 e10 2. d13 g13 3. g10 -- 4. black d10 5. c10 c11 6. e9 f11 

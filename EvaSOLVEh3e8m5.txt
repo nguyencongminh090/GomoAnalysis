@@ -1,0 +1,19 @@
+[Event "?"]
+[Site "PlayOK"]
+[Date "2021.04.18"]
+[Round "-"]
+[Black "swapgame"]
+[White "evacoregen6"]
+[Result "0-1"]
+[Time "11:27:01"]
+[TimeControl "900"]
+[GameType "61,15"]
+[BlackElo "1232"]
+[WhiteElo "2226"]
+
+1. h3 e8 2. m5 white 3. -- f8 4. k3 g8 5. h8 g6 6. j2 l4 7. j3 i3 8. j5 j4 9.
+i4 k6 10. k2 i2 11. k5 i5 12. h6 i6 13. h5 l1 14. i7 j8 15. e5 g7 16. g9 j6 17.
+h4 h2 18. e4 f4 19. d5 f3 20. e6 e3 21. l5 n5 22. m6 k4 23. c4 b3 24. m4 d8 25.
+c8 m7 26. c6 g5 27. g4 d2 28. c1 d3 29. c3 e10 30. f1 g2 31. d1 e1 32. b5 f5
+33. l2 m2 0-1
+

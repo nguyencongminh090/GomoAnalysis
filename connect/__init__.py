@@ -15,7 +15,7 @@ def put(command):
 def get():
     while True:
         try:
-            text = engine.stdout.readline().strip()
+            
             if ',' in text:
                 return text
             elif 'MESSAGE' in text:
@@ -35,5 +35,23 @@ def timeinit(b):
     put('START 15')
 
 
+def ms():
+    while True:
+        try:
+            text = engine.stdout.readline().strip()
+            if 'MESSAGE' in text and 'depth' in text:
+                sp = text.split(' ')
+                depth = sp[sp.index('depth')+1]
+                ev = sp[sp.index('ev')+1]
+                engine.stdout.readline().strip()
+                return [depth, ev]
+            if ',' in text:
+                return ['1-%NaN%', '0']
+        except:
+            pass
+    
+    
+
+    
 def kill():
     engine.kill()

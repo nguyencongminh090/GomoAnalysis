@@ -19,17 +19,3 @@ def pktool(move,q):
         x = int(move.split(',')[0])
         y = int(move.split(',')[1])
         return str(chr(x+97)) + str(int(15-y))
-
-
-##def test_time(func, *arg):
-##    from time import perf_counter as clock
-##    a = clock()
-##    func(*arg)
-##    pktool(*arg)
-##    b = clock()
-##    print('Runtime: {} sec'.format(round(b-a,2)))
-##
-##    
-##test_time(pktool, 'o1', 0)
-##test_time(pktool1, 'o1', 0)
-##print(pktool('7,7', 1))
